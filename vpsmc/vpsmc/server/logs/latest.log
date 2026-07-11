@@ -1568,3 +1568,86 @@ This warning can be disabled in the DH config.
 [11Jul2026 16:37:08.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Shape: rectangle
 [11Jul2026 16:37:08.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Center: 0, 1000
 [11Jul2026 16:37:08.946] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Radii: 2000, 1000
+[11Jul2026 16:44:45.149] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task started in minecraft:overworld for the rectangle region centered at 0, 1000 with radius 2000, 1000.
+[11Jul2026 16:45:36.244] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 0 chunks (0.00%), ETA: 0:00:00, Rate: 0.0 cps, Current: 0, 0
+[11Jul2026 16:45:46.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task already started for minecraft:overworld!
+[11Jul2026 16:46:16.363] [Worker-Main-2/INFO] [bettercaves/]: CREATING AND INIT'ING MASTER CONTROLLER...
+[11Jul2026 16:46:35.645] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[11Jul2026 16:46:35.645] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[11Jul2026 16:46:35.646] [Server thread/INFO] [AllTheLeaks/]: Waiting to stabilize [2/10]
+[11Jul2026 16:46:35.646] [Server thread/INFO] [AllTheLeaks/]: No memory leak detected!
+[11Jul2026 16:46:38.719] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 8 chunks (0.03%), ETA: 1:44:34, Rate: 5.1 cps, Current: -125, 6
+[11Jul2026 16:46:40.770] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 11 chunks (0.03%), ETA: 2:55:07, Rate: 3.0 cps, Current: -125, 9
+[11Jul2026 16:46:42.868] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 12 chunks (0.04%), ETA: 4:13:22, Rate: 2.1 cps, Current: -125, 10
+[11Jul2026 16:46:43.964] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 18 chunks (0.06%), ETA: 3:21:12, Rate: 2.6 cps, Current: -125, 16
+[11Jul2026 16:46:45.679] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 26 chunks (0.08%), ETA: 2:54:16, Rate: 3.0 cps, Current: -125, 24
+[11Jul2026 16:46:53.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 48 chunks (0.15%), ETA: 2:58:17, Rate: 3.0 cps, Current: -125, 46
+[11Jul2026 16:47:13.223] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 51 chunks (0.16%), ETA: 7:36:28, Rate: 1.2 cps, Current: -125, 49
+[11Jul2026 16:48:06.791] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 60 chunks (0.19%), ETA: 0:53:54, Rate: 9.8 cps, Current: -125, 54
+[11Jul2026 16:48:07.869] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 63 chunks (0.20%), ETA: 2:02:13, Rate: 4.3 cps, Current: -125, 64
+[11Jul2026 16:48:08.908] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 66 chunks (0.21%), ETA: 2:22:40, Rate: 3.7 cps, Current: -125, 58
+[11Jul2026 16:48:10.275] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 74 chunks (0.23%), ETA: 1:58:08, Rate: 4.5 cps, Current: -125, 71
+[11Jul2026 16:48:12.747] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Incorrect argument for command
+[11Jul2026 16:48:12.761] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: chunky stop<--[HERE]
+[11Jul2026 16:48:18.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task paused for minecraft:overworld.
+[11Jul2026 16:48:21.394] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping the server
+[11Jul2026 16:48:21.444] [Server thread/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Stopping train listener...
+[11Jul2026 16:48:21.444] [Server thread/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Stopping Advanced Display Data Manager...
+[11Jul2026 16:48:21.444] [Server thread/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator/]: All events have been closed.
+[11Jul2026 16:48:21.445] [Server thread/INFO] [DragonLib Networking System/]: Shutting down network threads. Please wait...
+[11Jul2026 16:48:21.445] [Server thread/INFO] [DragonLib Networking System/]: Network threads shut down. Took 0ms.
+[11Jul2026 16:48:21.451] [Chunky-minecraft:overworld Thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task stopped for minecraft:overworld.
+[11Jul2026 16:48:21.454] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Closing world gen queue
+[11Jul2026 16:48:21.454] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Closing world gen queue
+[11Jul2026 16:48:21.454] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Closing world gen queue
+[11Jul2026 16:48:21.454] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Closing world gen queue
+[11Jul2026 16:48:21.456] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[11Jul2026 16:48:21.456] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[11Jul2026 16:48:21.456] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[11Jul2026 16:48:21.456] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Shutting down world generator thread pool...
+[11Jul2026 16:48:21.456] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Shutting down world generator thread pool...
+[11Jul2026 16:48:21.456] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Closing WorldGenerationQueue...
+[11Jul2026 16:48:21.456] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Shutting down world generator thread pool...
+[11Jul2026 16:48:21.456] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Shutting down world generator thread pool...
+[11Jul2026 16:48:21.456] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: World generator thread pool shutdown with [0] incomplete tasks.
+[11Jul2026 16:48:21.456] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: World generator thread pool shutdown with [0] incomplete tasks.
+[11Jul2026 16:48:21.456] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: World generator thread pool shutdown with [0] incomplete tasks.
+[11Jul2026 16:48:21.456] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: World generator thread pool shutdown with [0] incomplete tasks.
+[11Jul2026 16:48:21.457] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: [BatchGenerator] shutting down...
+[11Jul2026 16:48:21.457] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: [BatchGenerator] shutting down...
+[11Jul2026 16:48:21.457] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: [BatchGenerator] shutting down...
+[11Jul2026 16:48:21.457] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.BatchGenerator/]: [BatchGenerator] shutting down...
+[11Jul2026 16:48:21.457] [level shutdown/INFO] [DistantHorizons-LOD World Gen/]: Closing [BatchGenerationEnvironment_neoforge]
+[11Jul2026 16:48:21.457] [level shutdown/INFO] [DistantHorizons-LOD World Gen/]: Closing [BatchGenerationEnvironment_neoforge]
+[11Jul2026 16:48:21.457] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[11Jul2026 16:48:21.457] [level shutdown/INFO] [DistantHorizons-LOD World Gen/]: Closing [BatchGenerationEnvironment_neoforge]
+[11Jul2026 16:48:21.457] [level shutdown/INFO] [DistantHorizons-LOD World Gen/]: Closing [BatchGenerationEnvironment_neoforge]
+[11Jul2026 16:48:21.457] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@ae2:spatial_storage}].
+[11Jul2026 16:48:21.457] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[11Jul2026 16:48:21.458] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[11Jul2026 16:48:21.458] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.generation.queues.WorldGenerationQueue/]: Finished closing WorldGenerationQueue
+[11Jul2026 16:48:21.458] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_end}].
+[11Jul2026 16:48:21.458] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:overworld}].
+[11Jul2026 16:48:21.458] [level shutdown/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.level.AbstractDhServerLevel/]: Closed DHLevel for [Wrapped{ServerLevel[world]@minecraft:the_nether}].
+[11Jul2026 16:48:21.459] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Closed DhWorld of type [SERVER_ONLY].
+[11Jul2026 16:48:21.459] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.world.AbstractDhWorld/]: Closed DhWorld of type [SERVER_ONLY].
+[11Jul2026 16:48:21.459] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.util.threading.PriorityTaskPicker/]: Shutting down PriorityTaskPicker thread pool...
+[11Jul2026 16:48:21.460] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing all [4] database connections...
+[11Jul2026 16:48:21.460] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./world/dimensions/ae2/spatial_storage/data/DistantHorizons.sqlite]
+[11Jul2026 16:48:21.464] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./world/DIM1/data/DistantHorizons.sqlite]
+[11Jul2026 16:48:21.468] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./world/DIM-1/data/DistantHorizons.sqlite]
+[11Jul2026 16:48:21.471] [Server thread/INFO] [DistantHorizons-DistantHorizons-com.seibel.distanthorizons.core.sql.repo.AbstractDhRepo/]: Closing database connection: [jdbc:dh_sqlite:./world/data/DistantHorizons.sqlite]
+[11Jul2026 16:48:23.002] [CRN Train Listener/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Train listener has been stopped.
+[11Jul2026 16:48:23.002] [Advanced Display Data Manager/INFO] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Advanced Display Data Manager has been stopped.
+[11Jul2026 16:48:23.005] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Stopping server
+[11Jul2026 16:48:23.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving players
+[11Jul2026 16:48:23.006] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving worlds
+[11Jul2026 16:48:28.046] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:overworld
+[11Jul2026 16:48:28.316] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_end
+[11Jul2026 16:48:28.339] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/minecraft:the_nether
+[11Jul2026 16:48:28.350] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Saving chunks for level 'ServerLevel[world]'/ae2:spatial_storage
+[11Jul2026 16:48:28.373] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[11Jul2026 16:48:28.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[11Jul2026 16:48:28.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[11Jul2026 16:48:28.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[11Jul2026 16:48:28.374] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
