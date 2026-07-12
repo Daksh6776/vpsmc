@@ -19352,3 +19352,266 @@ chunky reload - Reload configuration
 [12Jul2026 04:43:48.904] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 1975
 [12Jul2026 04:43:48.904] [Server thread/INFO] [AllTheLeaks/]: | Player:
 [12Jul2026 04:43:48.904] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[12Jul2026 04:46:37.372] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Radius changed to 1000.
+[12Jul2026 04:46:48.065] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Shape changed to square.
+[12Jul2026 04:46:54.553] [Server thread/DEBUG] [yungscavebiomes/]: Starting sandstorm in minecraft:overworld
+[12Jul2026 04:46:56.066] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chunky Commands
+chunky start - Start a new chunk generation task
+chunky pause - Pause current tasks and save progress
+chunky continue - Continue current or saved tasks
+chunky cancel - Stop and delete current or saved tasks
+chunky world <world> - Set the world target
+chunky worldborder - Use the world border center & radius
+chunky center <x> <z> - Set the center block location
+chunky spawn - Set the center to the spawn point
+chunky radius <radius> - Set the radius
+chunky corners <x1> <z1> <x2> <z2> - Set by corners
+chunky shape <shape> - Set the shape to generate
+chunky pattern <pattern> - Set the generation pattern
+chunky silent - Toggle displaying update messages
+chunky quiet <interval> - Set the quiet interval
+chunky trim - Delete chunks outside selection
+chunky selection - Display the current selection
+chunky progress - Displays current task progress
+chunky reload - Reload configuration
+[12Jul2026 04:47:13.616] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Quiet interval set to 30 seconds.
+[12Jul2026 04:47:22.610] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task started in minecraft:overworld for the square region centered at -160, 519 with radius 1000.
+[12Jul2026 04:47:52.593] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1673 chunks (10.37%), ETA: 0:01:43, Rate: 139.7 cps, Current: 23, 48
+[12Jul2026 04:48:25.070] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 1799 chunks (11.15%), ETA: 1:02:33, Rate: 3.8 cps, Current: 28, 46
+[12Jul2026 04:48:45.409] [Server thread/DEBUG] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Saved train listener data.
+[12Jul2026 04:48:45.409] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[12Jul2026 04:49:01.603] [Server thread/DEBUG] [yungscavebiomes/]: STOPPING SANDSTORM in ae2:spatial_storage
+[12Jul2026 04:49:12.653] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4065 chunks (25.20%), ETA: 14:22:54, Rate: 0.2 cps, Current: 28, 36
+[12Jul2026 04:49:37.965] [Server thread/WARN] [net.minecraft.server.MinecraftServer/]: Can't keep up! Is the server overloaded? Running 2062ms or 41 ticks behind
+[12Jul2026 04:49:42.654] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4097 chunks (25.40%), ETA: 3:10:10, Rate: 1.1 cps, Current: -62, 1
+[12Jul2026 04:50:12.938] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4182 chunks (25.93%), ETA: 1:10:06, Rate: 2.8 cps, Current: -50, 0
+[12Jul2026 04:50:45.715] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4303 chunks (26.68%), ETA: 1:08:48, Rate: 2.9 cps, Current: -58, 14
+[12Jul2026 04:51:15.830] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4383 chunks (27.17%), ETA: 1:12:46, Rate: 2.7 cps, Current: -59, 19
+[12Jul2026 04:51:36.603] [Server thread/DEBUG] [yungscavebiomes/]: STOPPING SANDSTORM in minecraft:overworld
+[12Jul2026 04:51:45.959] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4505 chunks (27.93%), ETA: 0:47:47, Rate: 4.1 cps, Current: -53, 25
+[12Jul2026 04:52:16.079] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 4961 chunks (30.76%), ETA: 0:27:23, Rate: 6.8 cps, Current: -44, 14
+[12Jul2026 04:52:50.238] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 5121 chunks (31.75%), ETA: 1:07:38, Rate: 2.7 cps, Current: -64, 32
+[12Jul2026 04:53:23.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 5149 chunks (31.92%), ETA: 0:19:06, Rate: 9.6 cps, Current: -64, 38
+[12Jul2026 04:53:47.464] [Server thread/DEBUG] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Saved train listener data.
+[12Jul2026 04:53:47.466] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[12Jul2026 04:53:50.885] [Worker-Main-8/WARN] [lithostitched/]: Couldn't find template pool reference: kaisyn:village/beach_lighthouse/villager_lighthouse_master (Jigsaw block location: -1115, 64, 872)
+[12Jul2026 04:53:51.064] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[12Jul2026 04:53:51.064] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 1
+[12Jul2026 04:53:51.064] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 1
+[12Jul2026 04:53:51.064] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[12Jul2026 04:53:51.064] [Server thread/INFO] [AllTheLeaks/]: B: 1236MB / C: 1398MB / Diff: +162MB
+[12Jul2026 04:53:51.064] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[12Jul2026 04:53:51.064] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[12Jul2026 04:53:51.064] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 625
+[12Jul2026 04:53:51.064] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[12Jul2026 04:53:51.064] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[12Jul2026 04:53:56.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 5270 chunks (32.67%), ETA: 1:19:45, Rate: 2.3 cps, Current: -51, 41
+[12Jul2026 04:54:34.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 5409 chunks (33.54%), ETA: 1:24:12, Rate: 2.1 cps, Current: -59, 52
+[12Jul2026 04:55:08.332] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 5521 chunks (34.23%), ETA: 1:00:55, Rate: 2.9 cps, Current: -56, 60
+[12Jul2026 04:55:38.404] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 5946 chunks (36.87%), ETA: 0:26:39, Rate: 6.4 cps, Current: -44, 56
+[12Jul2026 04:55:49.518] [Worker-Main-7/WARN] [lithostitched/]: Couldn't find template pool reference: kaisyn:village/beach_lighthouse/villager_lighthouse_master (Jigsaw block location: -1115, 64, 872)
+[12Jul2026 04:56:05.653] [Server thread/DEBUG] [yungscavebiomes/]: Starting sandstorm in minecraft:the_end
+[12Jul2026 04:56:08.904] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 6133 chunks (38.02%), ETA: 0:51:38, Rate: 3.2 cps, Current: -46, 32
+[12Jul2026 04:56:45.640] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 6201 chunks (38.45%), ETA: 1:04:12, Rate: 2.6 cps, Current: -60, 64
+[12Jul2026 04:57:17.001] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 6309 chunks (39.12%), ETA: 1:11:32, Rate: 2.3 cps, Current: -59, 77
+[12Jul2026 04:57:48.903] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 6403 chunks (39.70%), ETA: 1:29:33, Rate: 1.8 cps, Current: -62, 80
+[12Jul2026 04:58:19.722] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 6483 chunks (40.19%), ETA: 1:35:41, Rate: 1.7 cps, Current: -64, 93
+[12Jul2026 04:58:47.414] [Server thread/DEBUG] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Saved train listener data.
+[12Jul2026 04:58:47.415] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[12Jul2026 04:58:50.550] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 6585 chunks (40.83%), ETA: 1:02:40, Rate: 2.5 cps, Current: -52, 89
+[12Jul2026 04:59:20.838] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 6762 chunks (41.92%), ETA: 0:26:33, Rate: 5.9 cps, Current: -43, 92
+[12Jul2026 04:59:51.235] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 6855 chunks (42.50%), ETA: 0:49:05, Rate: 3.1 cps, Current: -36, 86
+[12Jul2026 05:00:21.310] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 7016 chunks (43.50%), ETA: 0:27:14, Rate: 5.6 cps, Current: -46, 75
+[12Jul2026 05:00:51.435] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 7200 chunks (44.64%), ETA: 0:27:40, Rate: 5.4 cps, Current: -29, 69
+[12Jul2026 05:01:04.653] [Server thread/DEBUG] [yungscavebiomes/]: Starting sandstorm in minecraft:the_nether
+[12Jul2026 05:01:21.914] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 7311 chunks (45.33%), ETA: 0:41:35, Rate: 3.5 cps, Current: -21, 74
+[12Jul2026 05:01:56.998] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 7483 chunks (46.39%), ETA: 0:32:12, Rate: 4.5 cps, Current: -31, 85
+[12Jul2026 05:02:27.068] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 7637 chunks (47.35%), ETA: 0:27:27, Rate: 5.2 cps, Current: -23, 82
+[12Jul2026 05:02:59.018] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 7722 chunks (47.88%), ETA: 0:52:58, Rate: 2.6 cps, Current: -15, 85
+[12Jul2026 05:03:07.616] [Server thread/DEBUG] [yungscavebiomes/]: STOPPING SANDSTORM in minecraft:the_end
+[12Jul2026 05:03:29.976] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 7858 chunks (48.72%), ETA: 0:32:46, Rate: 4.2 cps, Current: -8, 95
+[12Jul2026 05:03:47.414] [Server thread/DEBUG] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Saved train listener data.
+[12Jul2026 05:03:47.415] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[12Jul2026 05:03:51.053] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[12Jul2026 05:03:51.053] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 1
+[12Jul2026 05:03:51.053] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 1
+[12Jul2026 05:03:51.053] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[12Jul2026 05:03:51.053] [Server thread/INFO] [AllTheLeaks/]: B: 1236MB / C: 2184MB / Diff: +948MB
+[12Jul2026 05:03:51.053] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[12Jul2026 05:03:51.053] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[12Jul2026 05:03:51.053] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 2456
+[12Jul2026 05:03:51.053] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[12Jul2026 05:03:51.053] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[12Jul2026 05:04:00.661] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 7975 chunks (49.45%), ETA: 0:34:53, Rate: 3.9 cps, Current: -5, 76
+[12Jul2026 05:04:30.701] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 8204 chunks (50.86%), ETA: 0:19:10, Rate: 6.9 cps, Current: 2, 65
+[12Jul2026 05:05:01.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 8307 chunks (51.50%), ETA: 0:33:12, Rate: 3.9 cps, Current: 15, 65
+[12Jul2026 05:05:36.103] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 8312 chunks (51.53%), ETA: 0:06:30, Rate: 20.0 cps, Current: 10, 71
+[12Jul2026 05:05:58.653] [Server thread/DEBUG] [yungscavebiomes/]: STOPPING SANDSTORM in minecraft:the_nether
+[12Jul2026 05:06:08.347] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 8379 chunks (51.95%), ETA: 1:01:20, Rate: 2.1 cps, Current: 8, 76
+[12Jul2026 05:06:39.194] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 8516 chunks (52.80%), ETA: 0:33:40, Rate: 3.8 cps, Current: 1, 89
+[12Jul2026 05:07:38.544] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 8592 chunks (53.27%), ETA: 0:01:16, Rate: 98.2 cps, Current: 9, 93
+[12Jul2026 05:08:12.866] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 8739 chunks (54.18%), ETA: 0:36:01, Rate: 3.4 cps, Current: 16, 85
+[12Jul2026 05:08:43.699] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 8849 chunks (54.86%), ETA: 0:33:30, Rate: 3.6 cps, Current: 29, 93
+[12Jul2026 05:08:47.417] [Server thread/DEBUG] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Saved train listener data.
+[12Jul2026 05:08:47.418] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[12Jul2026 05:09:13.771] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 8993 chunks (55.76%), ETA: 0:24:39, Rate: 4.8 cps, Current: 30, 74
+[12Jul2026 05:09:43.785] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 9163 chunks (56.81%), ETA: 0:19:14, Rate: 6.0 cps, Current: 26, 68
+[12Jul2026 05:10:14.229] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 9260 chunks (57.41%), ETA: 0:58:34, Rate: 2.0 cps, Current: 33, 75
+[12Jul2026 05:10:44.269] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 9445 chunks (58.56%), ETA: 0:17:59, Rate: 6.2 cps, Current: 39, 65
+[12Jul2026 05:11:38.002] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 9511 chunks (58.97%), ETA: 0:02:20, Rate: 47.2 cps, Current: 41, 70
+[12Jul2026 05:12:09.312] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 9678 chunks (60.00%), ETA: 0:21:29, Rate: 5.0 cps, Current: 46, 78
+[12Jul2026 05:12:42.735] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 9837 chunks (60.99%), ETA: 0:19:36, Rate: 5.3 cps, Current: 51, 76
+[12Jul2026 05:13:12.853] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 9930 chunks (61.57%), ETA: 0:33:06, Rate: 3.1 cps, Current: 32, 32
+[12Jul2026 05:13:43.203] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 10050 chunks (62.31%), ETA: 0:25:48, Rate: 3.9 cps, Current: 36, 32
+[12Jul2026 05:13:47.481] [Server thread/DEBUG] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Saved train listener data.
+[12Jul2026 05:13:47.483] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[12Jul2026 05:13:51.153] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[12Jul2026 05:13:51.153] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 1
+[12Jul2026 05:13:51.153] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 1
+[12Jul2026 05:13:51.153] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[12Jul2026 05:13:51.153] [Server thread/INFO] [AllTheLeaks/]: B: 1214MB / C: 1260MB / Diff: +46MB
+[12Jul2026 05:13:51.153] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[12Jul2026 05:13:51.153] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[12Jul2026 05:13:51.153] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 546
+[12Jul2026 05:13:51.153] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[12Jul2026 05:13:51.153] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[12Jul2026 05:14:14.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 10209 chunks (63.30%), ETA: 0:21:14, Rate: 4.6 cps, Current: 41, 32
+[12Jul2026 05:14:46.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 10343 chunks (64.13%), ETA: 0:25:03, Rate: 3.8 cps, Current: 45, 38
+[12Jul2026 05:15:16.537] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 10495 chunks (65.07%), ETA: 0:18:27, Rate: 5.1 cps, Current: 49, 60
+[12Jul2026 05:15:50.231] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 10601 chunks (65.73%), ETA: 0:26:45, Rate: 3.4 cps, Current: 52, 63
+[12Jul2026 05:16:20.337] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 10665 chunks (66.12%), ETA: 0:42:10, Rate: 2.2 cps, Current: 33, 8
+[12Jul2026 05:16:59.146] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 10849 chunks (67.26%), ETA: 0:17:12, Rate: 5.1 cps, Current: 39, 3
+[12Jul2026 05:17:30.962] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 10907 chunks (67.62%), ETA: 3:03:58, Rate: 0.5 cps, Current: 40, 26
+[12Jul2026 05:18:04.912] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 11073 chunks (68.65%), ETA: 0:18:57, Rate: 4.4 cps, Current: 46, 5
+[12Jul2026 05:18:34.939] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 11232 chunks (69.64%), ETA: 0:15:19, Rate: 5.3 cps, Current: 50, 30
+[12Jul2026 05:18:47.414] [Server thread/DEBUG] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Saved train listener data.
+[12Jul2026 05:18:47.416] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[12Jul2026 05:19:18.067] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 11300 chunks (70.06%), ETA: 0:14:34, Rate: 5.5 cps, Current: 53, 6
+[12Jul2026 05:19:41.617] [Server thread/DEBUG] [yungscavebiomes/]: Starting sandstorm in ae2:spatial_storage
+[12Jul2026 05:19:48.345] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 11305 chunks (70.09%), ETA: 0:54:40, Rate: 1.5 cps, Current: 53, 10
+[12Jul2026 05:20:23.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 11347 chunks (70.35%), ETA: 1:07:27, Rate: 1.2 cps, Current: 33, -30
+[12Jul2026 05:20:53.723] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 11500 chunks (71.30%), ETA: 0:15:02, Rate: 5.1 cps, Current: 37, -5
+[12Jul2026 05:21:24.746] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 11575 chunks (71.77%), ETA: 0:29:40, Rate: 2.6 cps, Current: 39, -3
+[12Jul2026 05:21:55.891] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 11718 chunks (72.65%), ETA: 0:17:35, Rate: 4.2 cps, Current: 44, -13
+[12Jul2026 05:22:26.056] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 11893 chunks (73.74%), ETA: 0:12:05, Rate: 5.8 cps, Current: 50, -25
+[12Jul2026 05:23:15.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 12159 chunks (75.39%), ETA: 0:13:15, Rate: 5.0 cps, Current: 53, -31
+[12Jul2026 05:23:16.144] [Worker-Main-6/WARN] [lithostitched/]: Couldn't find template pool reference: minecraft:cook_additions_1_pool (Jigsaw block location: 105, 80, -544)
+[12Jul2026 05:23:16.145] [Worker-Main-6/WARN] [lithostitched/]: Couldn't find template pool reference: minecraft:cook_additions_3_pool (Jigsaw block location: 105, 80, -559)
+[12Jul2026 05:23:16.145] [Worker-Main-6/WARN] [lithostitched/]: Couldn't find template pool reference: minecraft:cook_additions_2_pool (Jigsaw block location: 112, 80, -552)
+[12Jul2026 05:23:16.145] [Worker-Main-6/WARN] [lithostitched/]: Couldn't find template pool reference: minecraft:cook_additions_4_pool (Jigsaw block location: 97, 80, -553)
+[12Jul2026 05:23:16.146] [Worker-Main-6/WARN] [lithostitched/]: Couldn't find template pool reference: minecraft:cook_end_1_pool (Jigsaw block location: 84, 80, -557)
+[12Jul2026 05:23:38.603] [Server thread/DEBUG] [yungscavebiomes/]: Starting sandstorm in minecraft:overworld
+[12Jul2026 05:23:45.953] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 12284 chunks (76.16%), ETA: 0:18:54, Rate: 3.4 cps, Current: 7, -22
+[12Jul2026 05:23:47.464] [Server thread/DEBUG] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Saved train listener data.
+[12Jul2026 05:23:47.465] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[12Jul2026 05:23:51.203] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[12Jul2026 05:23:51.203] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 1
+[12Jul2026 05:23:51.203] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 1
+[12Jul2026 05:23:51.203] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[12Jul2026 05:23:51.203] [Server thread/INFO] [AllTheLeaks/]: B: 1214MB / C: 1653MB / Diff: +439MB
+[12Jul2026 05:23:51.203] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[12Jul2026 05:23:51.203] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[12Jul2026 05:23:51.203] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 536
+[12Jul2026 05:23:51.203] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[12Jul2026 05:23:51.203] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[12Jul2026 05:23:51.653] [Server thread/DEBUG] [yungscavebiomes/]: STOPPING SANDSTORM in ae2:spatial_storage
+[12Jul2026 05:24:51.448] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 12296 chunks (76.24%), ETA: 3:39:51, Rate: 0.3 cps, Current: 9, -28
+[12Jul2026 05:25:22.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 12443 chunks (77.15%), ETA: 0:18:32, Rate: 3.3 cps, Current: 13, -4
+[12Jul2026 05:25:56.253] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 12544 chunks (77.77%), ETA: 0:15:08, Rate: 3.9 cps, Current: 17, -20
+[12Jul2026 05:26:26.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 12668 chunks (78.54%), ETA: 0:14:10, Rate: 4.1 cps, Current: 21, -25
+[12Jul2026 05:27:02.454] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 12745 chunks (79.02%), ETA: 0:17:50, Rate: 3.2 cps, Current: 23, -4
+[12Jul2026 05:27:32.575] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 12865 chunks (79.76%), ETA: 0:13:32, Rate: 4.0 cps, Current: 27, -14
+[12Jul2026 05:28:02.603] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 12965 chunks (80.38%), ETA: 0:15:22, Rate: 3.4 cps, Current: 30, -7
+[12Jul2026 05:28:36.653] [Server thread/DEBUG] [yungscavebiomes/]: Starting sandstorm in minecraft:the_end
+[12Jul2026 05:28:39.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 13003 chunks (80.62%), ETA: 0:56:22, Rate: 0.9 cps, Current: -32, -31
+[12Jul2026 05:28:47.469] [Server thread/DEBUG] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Saved train listener data.
+[12Jul2026 05:28:47.471] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[12Jul2026 05:28:53.637] [Server thread/DEBUG] [yungscavebiomes/]: STOPPING SANDSTORM in minecraft:overworld
+[12Jul2026 05:29:49.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 13213 chunks (81.92%), ETA: 0:03:05, Rate: 15.7 cps, Current: -28, -20
+[12Jul2026 05:30:20.406] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 13482 chunks (83.59%), ETA: 0:05:15, Rate: 8.4 cps, Current: -19, -23
+[12Jul2026 05:30:50.453] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 13833 chunks (85.76%), ETA: 0:03:15, Rate: 11.7 cps, Current: -8, -29
+[12Jul2026 05:30:51.742] [Worker-Main-7/WARN] [lithostitched/]: Couldn't find template pool reference: minecraft:cook_additions_1_pool (Jigsaw block location: 105, 80, -544)
+[12Jul2026 05:30:51.742] [Worker-Main-7/WARN] [lithostitched/]: Couldn't find template pool reference: minecraft:cook_additions_3_pool (Jigsaw block location: 105, 80, -559)
+[12Jul2026 05:30:51.742] [Worker-Main-7/WARN] [lithostitched/]: Couldn't find template pool reference: minecraft:cook_additions_2_pool (Jigsaw block location: 112, 80, -552)
+[12Jul2026 05:30:51.742] [Worker-Main-7/WARN] [lithostitched/]: Couldn't find template pool reference: minecraft:cook_additions_4_pool (Jigsaw block location: 97, 80, -553)
+[12Jul2026 05:30:51.742] [Worker-Main-7/WARN] [lithostitched/]: Couldn't find template pool reference: minecraft:cook_end_1_pool (Jigsaw block location: 84, 80, -557)
+[12Jul2026 05:31:22.003] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 13993 chunks (86.76%), ETA: 0:06:20, Rate: 5.6 cps, Current: -1, -21
+[12Jul2026 05:31:52.114] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 14047 chunks (87.09%), ETA: 0:18:39, Rate: 1.9 cps, Current: -63, -10
+[12Jul2026 05:32:23.143] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 14157 chunks (87.77%), ETA: 0:06:28, Rate: 5.1 cps, Current: -59, -22
+[12Jul2026 05:32:54.629] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 14343 chunks (88.93%), ETA: 0:05:31, Rate: 5.4 cps, Current: -53, -23
+[12Jul2026 05:33:26.187] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 14519 chunks (90.02%), ETA: 0:04:30, Rate: 6.0 cps, Current: -48, -3
+[12Jul2026 05:33:34.617] [Server thread/DEBUG] [yungscavebiomes/]: STOPPING SANDSTORM in minecraft:the_end
+[12Jul2026 05:33:47.467] [Server thread/DEBUG] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Saved train listener data.
+[12Jul2026 05:33:47.468] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[12Jul2026 05:33:51.253] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[12Jul2026 05:33:51.253] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 1
+[12Jul2026 05:33:51.253] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 1
+[12Jul2026 05:33:51.253] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[12Jul2026 05:33:51.253] [Server thread/INFO] [AllTheLeaks/]: B: 1214MB / C: 2082MB / Diff: +868MB
+[12Jul2026 05:33:51.253] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[12Jul2026 05:33:51.253] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[12Jul2026 05:33:51.253] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 1841
+[12Jul2026 05:33:51.253] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[12Jul2026 05:33:51.253] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[12Jul2026 05:34:00.195] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 14708 chunks (91.19%), ETA: 0:04:54, Rate: 4.8 cps, Current: -41, -29
+[12Jul2026 05:34:37.900] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 14953 chunks (92.71%), ETA: 0:03:13, Rate: 6.1 cps, Current: -34, -8
+[12Jul2026 05:35:36.237] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 14996 chunks (92.98%), ETA: 0:00:18, Rate: 62.1 cps, Current: -73, -22
+[12Jul2026 05:36:06.242] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 15177 chunks (94.10%), ETA: 0:02:30, Rate: 6.3 cps, Current: -67, -26
+[12Jul2026 05:36:50.896] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 15236 chunks (94.46%), ETA: 0:30:10, Rate: 0.5 cps, Current: -65, -30
+[12Jul2026 05:37:26.638] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 15346 chunks (95.15%), ETA: 0:04:10, Rate: 3.1 cps, Current: -71, 16
+[12Jul2026 05:37:56.298] [Worker-Main-6/WARN] [lithostitched/]: Couldn't find template pool reference: kaisyn:village/beach_lighthouse/villager_lighthouse_master (Jigsaw block location: -1115, 64, 872)
+[12Jul2026 05:37:57.125] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 15537 chunks (96.33%), ETA: 0:01:46, Rate: 5.5 cps, Current: -65, 15
+[12Jul2026 05:38:30.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 15548 chunks (96.40%), ETA: 0:00:53, Rate: 10.9 cps, Current: -65, 26
+[12Jul2026 05:38:47.409] [Server thread/DEBUG] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Saved train listener data.
+[12Jul2026 05:38:47.410] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[12Jul2026 05:39:03.741] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 15714 chunks (97.43%), ETA: 0:01:35, Rate: 4.3 cps, Current: -68, 32
+[12Jul2026 05:39:39.120] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 15836 chunks (98.18%), ETA: 0:03:48, Rate: 1.3 cps, Current: -65, 58
+[12Jul2026 05:40:15.703] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 15894 chunks (98.54%), ETA: 0:01:02, Rate: 3.8 cps, Current: -72, 86
+[12Jul2026 05:40:20.054] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=41, y=-56, z=82}
+[12Jul2026 05:40:20.054] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=47, y=-56, z=82}
+[12Jul2026 05:40:20.055] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=43, y=-55, z=88}
+[12Jul2026 05:40:20.055] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=42, y=-56, z=86}
+[12Jul2026 05:40:20.055] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=42, y=-55, z=85}
+[12Jul2026 05:40:20.055] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=42, y=-56, z=84}
+[12Jul2026 05:40:20.055] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=45, y=-55, z=88}
+[12Jul2026 05:40:20.056] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=46, y=-56, z=84}
+[12Jul2026 05:40:20.056] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=46, y=-56, z=86}
+[12Jul2026 05:40:20.056] [Worker-Main-6/ERROR] [net.minecraft.world.entity.decoration.BlockAttachedEntity/]: Block-attached entity at invalid position: BlockPos{x=48, y=-56, z=84}
+[12Jul2026 05:40:45.753] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task running for minecraft:overworld. Processed: 16084 chunks (99.72%), ETA: 0:00:07, Rate: 6.4 cps, Current: -66, 82
+[12Jul2026 05:40:46.177] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: [Chunky] Task finished for minecraft:overworld. Processed: 16129 chunks (100.00%), Total time: 0:53:23
+[12Jul2026 05:41:24.614] [Server thread/DEBUG] [yungscavebiomes/]: Starting sandstorm in minecraft:the_nether
+[12Jul2026 05:43:47.416] [Server thread/DEBUG] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Saved train listener data.
+[12Jul2026 05:43:47.417] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[12Jul2026 05:43:51.268] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[12Jul2026 05:43:51.268] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 1
+[12Jul2026 05:43:51.268] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 1
+[12Jul2026 05:43:51.268] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[12Jul2026 05:43:51.268] [Server thread/INFO] [AllTheLeaks/]: B: 1214MB / C: 2756MB / Diff: +1542MB
+[12Jul2026 05:43:51.268] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[12Jul2026 05:43:51.268] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[12Jul2026 05:43:51.268] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 3546
+[12Jul2026 05:43:51.268] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[12Jul2026 05:43:51.268] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[12Jul2026 05:47:51.614] [Server thread/DEBUG] [yungscavebiomes/]: Starting sandstorm in ae2:spatial_storage
+[12Jul2026 05:48:47.409] [Server thread/DEBUG] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Saved train listener data.
+[12Jul2026 05:48:47.410] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[12Jul2026 05:49:44.614] [Server thread/DEBUG] [yungscavebiomes/]: STOPPING SANDSTORM in minecraft:the_nether
+[12Jul2026 05:52:25.865] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Chunky Commands
+chunky start - Start a new chunk generation task
+chunky pause - Pause current tasks and save progress
+chunky continue - Continue current or saved tasks
+chunky cancel - Stop and delete current or saved tasks
+chunky world <world> - Set the world target
+chunky worldborder - Use the world border center & radius
+chunky center <x> <z> - Set the center block location
+chunky spawn - Set the center to the spawn point
+chunky radius <radius> - Set the radius
+chunky corners <x1> <z1> <x2> <z2> - Set by corners
+chunky shape <shape> - Set the shape to generate
+chunky pattern <pattern> - Set the generation pattern
+chunky silent - Toggle displaying update messages
+chunky quiet <interval> - Set the quiet interval
+chunky trim - Delete chunks outside selection
+chunky selection - Display the current selection
+chunky progress - Displays current task progress
+chunky reload - Reload configuration
