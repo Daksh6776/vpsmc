@@ -1,0 +1,14 @@
+{
+	version: 1
+	uuid: "e562f2085bd637fca8e7559a362af71f"
+	name: "Daksh_H67#e562f208"
+	lock: false
+	rewards_blocked: false
+	task_progress: { }
+	started: { }
+	completed: { }
+	repeatable: { }
+	completion_count: { }
+	claimed_rewards: { }
+	player_data: { }
+}
