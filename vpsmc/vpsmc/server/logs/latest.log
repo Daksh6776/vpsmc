@@ -509,3 +509,23 @@ chunky trim - Delete chunks outside selection
 chunky selection - Display the current selection
 chunky progress - Displays current task progress
 chunky reload - Reload configuration
+[12Jul2026 05:53:51.317] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[12Jul2026 05:53:51.318] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 1
+[12Jul2026 05:53:51.318] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 1
+[12Jul2026 05:53:51.318] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[12Jul2026 05:53:51.318] [Server thread/INFO] [AllTheLeaks/]: B: 1214MB / C: 2829MB / Diff: +1615MB
+[12Jul2026 05:53:51.318] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[12Jul2026 05:53:51.318] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[12Jul2026 05:53:51.318] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 3546
+[12Jul2026 05:53:51.318] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[12Jul2026 05:53:51.318] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[12Jul2026 06:03:51.364] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[12Jul2026 06:03:51.364] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 1
+[12Jul2026 06:03:51.364] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 1
+[12Jul2026 06:03:51.364] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[12Jul2026 06:03:51.364] [Server thread/INFO] [AllTheLeaks/]: B: 1214MB / C: 2764MB / Diff: +1550MB
+[12Jul2026 06:03:51.364] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[12Jul2026 06:03:51.364] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[12Jul2026 06:03:51.364] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 3546
+[12Jul2026 06:03:51.364] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[12Jul2026 06:03:51.364] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1

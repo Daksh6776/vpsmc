@@ -19615,3 +19615,34 @@ chunky trim - Delete chunks outside selection
 chunky selection - Display the current selection
 chunky progress - Displays current task progress
 chunky reload - Reload configuration
+[12Jul2026 05:53:40.602] [Server thread/DEBUG] [yungscavebiomes/]: Starting sandstorm in minecraft:overworld
+[12Jul2026 05:53:47.412] [Server thread/DEBUG] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Saved train listener data.
+[12Jul2026 05:53:47.412] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[12Jul2026 05:53:51.317] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[12Jul2026 05:53:51.318] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 1
+[12Jul2026 05:53:51.318] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 1
+[12Jul2026 05:53:51.318] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[12Jul2026 05:53:51.318] [Server thread/INFO] [AllTheLeaks/]: B: 1214MB / C: 2829MB / Diff: +1615MB
+[12Jul2026 05:53:51.318] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[12Jul2026 05:53:51.318] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[12Jul2026 05:53:51.318] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 3546
+[12Jul2026 05:53:51.318] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[12Jul2026 05:53:51.318] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[12Jul2026 05:57:45.613] [Server thread/DEBUG] [yungscavebiomes/]: STOPPING SANDSTORM in ae2:spatial_storage
+[12Jul2026 05:58:47.409] [Server thread/DEBUG] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Saved train listener data.
+[12Jul2026 05:58:47.410] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[12Jul2026 05:59:21.614] [Server thread/DEBUG] [yungscavebiomes/]: Starting sandstorm in minecraft:the_end
+[12Jul2026 06:03:17.602] [Server thread/DEBUG] [yungscavebiomes/]: STOPPING SANDSTORM in minecraft:overworld
+[12Jul2026 06:03:44.614] [Server thread/DEBUG] [yungscavebiomes/]: STOPPING SANDSTORM in minecraft:the_end
+[12Jul2026 06:03:47.409] [Server thread/DEBUG] [de.mrjulsen.crn.CreateRailwaysNavigator/]: Saved train listener data.
+[12Jul2026 06:03:47.410] [Server thread/DEBUG] [net.neoforged.neoforge.common.CommonHooks/WP]: Gathered mod list to write to world save world
+[12Jul2026 06:03:51.364] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[12Jul2026 06:03:51.364] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 1
+[12Jul2026 06:03:51.364] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 1
+[12Jul2026 06:03:51.364] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[12Jul2026 06:03:51.364] [Server thread/INFO] [AllTheLeaks/]: B: 1214MB / C: 2764MB / Diff: +1550MB
+[12Jul2026 06:03:51.364] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[12Jul2026 06:03:51.364] [Server thread/INFO] [AllTheLeaks/]: | ChunkAccess:
+[12Jul2026 06:03:51.364] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 3546
+[12Jul2026 06:03:51.364] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[12Jul2026 06:03:51.364] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
