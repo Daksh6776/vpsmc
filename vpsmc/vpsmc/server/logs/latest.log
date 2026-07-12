@@ -529,3 +529,27 @@ chunky reload - Reload configuration
 [12Jul2026 06:03:51.364] [Server thread/INFO] [AllTheLeaks/]: |- LevelChunk (minecraft): 3546
 [12Jul2026 06:03:51.364] [Server thread/INFO] [AllTheLeaks/]: | Player:
 [12Jul2026 06:03:51.364] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[12Jul2026 06:07:11.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (world): All chunks are saved
+[12Jul2026 06:07:11.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM-1): All chunks are saved
+[12Jul2026 06:07:11.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (DIM1): All chunks are saved
+[12Jul2026 06:07:11.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage (spatial_storage): All chunks are saved
+[12Jul2026 06:07:11.632] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: ThreadedAnvilChunkStorage: All dimensions are saved
+[12Jul2026 06:07:12.762] [Server thread/INFO] [AllTheLeaks/]: Logging events from checking leak
+[12Jul2026 06:07:12.763] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 1
+[12Jul2026 06:07:12.763] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 1
+[12Jul2026 06:07:12.764] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Listing leaks...
+[12Jul2026 06:07:12.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: Player:
+[12Jul2026 06:07:12.765] [Server thread/INFO] [net.minecraft.server.MinecraftServer/]: - ServerPlayer (minecraft): 1
+[12Jul2026 06:13:51.403] [Server thread/INFO] [AllTheLeaks/]: Listing events...
+[12Jul2026 06:13:51.404] [Server thread/INFO] [AllTheLeaks/]: Server Player Clone: 1
+[12Jul2026 06:13:51.404] [Server thread/INFO] [AllTheLeaks/]: Server Player Logout: 1
+[12Jul2026 06:13:51.404] [Server thread/INFO] [AllTheLeaks/]: Listing memory leaks so far...
+[12Jul2026 06:13:51.404] [Server thread/INFO] [AllTheLeaks/]: B: 886MB / C: 961MB / Diff: +75MB
+[12Jul2026 06:13:51.404] [Server thread/INFO] [AllTheLeaks/]: Memory Leaks detected: (/atl force_refresh to update)
+[12Jul2026 06:13:51.404] [Server thread/INFO] [AllTheLeaks/]: | Player:
+[12Jul2026 06:13:51.404] [Server thread/INFO] [AllTheLeaks/]: |- ServerPlayer (minecraft): 1
+[12Jul2026 06:20:55.167] [FileWatcher-1-thread-1/INFO] [Moonlight/]: Sending changed configs to client
+[12Jul2026 06:20:55.242] [FileWatcher-1-thread-1/INFO] [Moonlight/]: Sending changed configs to client
+[12Jul2026 06:21:02.403] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: cupboard.json
+[12Jul2026 06:21:02.404] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: connectivity.json
+[12Jul2026 06:21:02.404] [Server thread/INFO] [com.cupboard.Cupboard/]: Loaded config for: smoothchunk.json
